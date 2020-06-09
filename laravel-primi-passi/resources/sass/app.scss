@@ -1,0 +1,57 @@
+//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+
+}
+.height{
+    height: 100%;
+
+}
+header{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-color: black;
+    color: white;
+    .containerInfo{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: 50px;
+
+        }
+        p{
+           font-style: italic;
+           letter-spacing: 1px;
+           padding: 20px;
+           line-height: 30px;
+        }
+    }
+    .discography{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+        .discographyContainer{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 50%;
+        }
+    }
+}
+// FOOTER---------
+@import 'footer';

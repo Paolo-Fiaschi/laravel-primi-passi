@@ -1,0 +1,32 @@
+footer{
+    height: 150px;
+    background-color: #353434;
+    color: white;
+    .footerContainer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        .imgContainer{
+            width: 100px;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+        .footerInfo{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            .footerInfoElement{
+                display: flex;
+                flex-direction: column;
+                ul li{
+                    // list-style-type: none;
+                }
+            }
+        }
+    }
+}
