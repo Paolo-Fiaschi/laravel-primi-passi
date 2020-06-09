@@ -1,0 +1,23 @@
+.discography{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    .discographyContainer{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 50%;
+        box-shadow: 5px 5px 15px;
+        padding: 25px;
+        border-radius: 5px;
+    }
+    .discographyContainer:hover{
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 30px;
+    }
+
+}
